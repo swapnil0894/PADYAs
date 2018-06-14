@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/menu_bg"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/cd_error_imv_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:id="@+id/custom_dialog_title_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Title"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/cd_error_imv_id"/>
+    <View
+        android:id="@+id/cd_title_view_id"
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_below="@+id/custom_dialog_title_tv"/>
+
+    <TextView
+        android:id="@+id/cd_msg_tv_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cd_title_view_id"/>
+
+    <View
+        android:id="@+id/cd_ok_view_id"
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_above="@+id/cd_ok_btn_id"/>
+
+    <Button
+        android:id="@+id/cd_ok_btn_id"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Ok"
+        android:textSize="20sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,300 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_10"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Report No"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_survey_no"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Insureance"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_customername"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Insured"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_insured"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Veichale No"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_veichaleno"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Type"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_type"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="D O S"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_dos"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Place"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_place"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Estimated Amount"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_estimatedamount"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Asserted Amount"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_assertedamount"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Activity"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/et_actvity"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/grey" />
+            </TableRow>
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_getlocation"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/button"-->
+
+                <!--android:padding="@dimen/padding_5"-->
+                <!--android:text="Get location"-->
+                <!--android:textColor="@color/white" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/et_time"-->
+                <!--style="@style/EditText"-->
+                <!--android:layout_margin="@dimen/padding_10"-->
+                <!--android:focusable="false"-->
+
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/grey" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/et_tentetivecollectiontime"-->
+                <!--style="@style/EditText"-->
+                <!--android:layout_margin="@dimen/padding_10"-->
+                <!--android:drawableRight="@drawable/icon_blackcalender"-->
+                <!--android:focusable="false"-->
+                <!--android:gravity="center"-->
+                <!--android:hint="Select Time"-->
+                <!--android:inputType="time" />-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_accept"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button"
+                    android:padding="@dimen/padding_5"
+                    android:text="Save"
+                    android:textColor="@color/white" />
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_transfer"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="@drawable/button"-->
+                    <!--android:padding="@dimen/padding_5"-->
+                    <!--android:text="Transfer"-->
+                    <!--android:textColor="@color/white" />-->
+            </TableRow>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

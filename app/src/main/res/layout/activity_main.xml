@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfd"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffc14d"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/title_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRow3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="70dp"-->
+                <!--android:gravity="center">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="पाणी पुरवठा विभाग"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="#303030"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</TableRow>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_meter"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:background="@drawable/nbutton"-->
+                <!--android:text="मीटर रिडींग घेणे"-->
+                <!--android:textColor="#ffffff" />-->
+
+            <Button
+                android:id="@+id/btn_addsurvey"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nbutton"
+                android:text=" Add Survey"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_surveydetails"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nbutton"
+                android:text="Survey details"
+                android:textColor="#ffffff" />
+
+
+            <Button
+                android:id="@+id/btn_showsurvey_details"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nbutton"
+                android:text="Survey List"
+                android:textColor="#ffffff" />
+
+
+            <Button
+                android:id="@+id/btn_getbackup"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nbutton"
+                android:text="Backup"
+                android:textColor="#ffffff" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_convertmeterimage"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:background="@drawable/nbutton"-->
+                <!--android:text="छायाचित्र बदल"-->
+                <!--android:textColor="#ffffff" />-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRow31"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="70dp"-->
+                <!--android:gravity="center">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView3"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="घरफाळा विभाग"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="#303030"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</TableRow>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_ghar"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:background="@drawable/nbutton"-->
+                <!--android:layout_marginBottom="70dp"-->
+                <!--android:text="थकीत बिल माहिती"-->
+                <!--android:textColor="#ffffff" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="white">#ffffff</color>
+    <color name="grey">#818282</color>
+    <color name="black">#000000</color>
+
+
+    <color name="colorPrimary">#8b60c8</color>
+    <color name="colorPrimaryDark">#633C99</color>
+    <color name="colorAccent">#8b60c8</color>
+    <color name="colorPrimaryFaint">#A380D3</color>
+
+    Basic Color-Code
+    <color name="transperent">#00ffffff</color>
+    <!--<color name="black">#000000</color>-->
+    <color name="green">#158b2e</color>
+    <color name="purple">#AC2C62</color>
+    <color name="red">#ff0000</color>
+    <!--<color name="grey">#818282</color>-->
+    <color name="greylight">#EFEFEF</color>
+    <!--<color name="white">#ffffff</color>-->
+    <color name="orange">#FF8C00</color>
+    <color name="blue">#ff59a9ff</color>
+    <color name="yellow">#EEC15A</color>
+    <color name="green_1">#3c643c</color>
+
+
+    <color name="colour1">#f68e56</color>
+    <color name="colour2">#39b540</color>
+    <color name="colour3">#f06e99</color>
+    <color name="colour4">#009eef</color>
+    <color name="colour5">#ebebeb</color>
+
+
+    <color name="faint_black">#999999</color>
+</resources>
